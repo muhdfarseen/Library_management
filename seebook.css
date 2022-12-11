@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Poppins,Abril Fatface;
+    position: relative;
+    background-size: cover;   
+    background-image: url("bgm.png");  
+    
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #E3ECB5;
+}
+
+nav ul{
+
+    float: right;
+    margin-right:30px;
+    margin-top: 15px;
+    display: flex;  
+}
+
+.logo{
+    position: absolute;
+    height: 19px;
+    left: 124px;
+    top: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #05566A;
+}
+
+.login{
+    font-weight: 700;
+}
+  
+nav a {
+    color: #05566A;
+    font-size: 16px;
+    padding: 7px 30px;
+    
+}
+
+a.active,a:hover{
+    color: white;
+}
+
+
+
+table{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 80%;
+    color: white;
+    text-align: center;
+
+}
+
+th{
+    border-radius: 5px;
+    background-color:  #05566A;
+    height: 50px;
+}
+
+
+tr:nth-child(even) {
+    background-color:#05566a35;
+    }
+
+.home{
+        font-weight: 700;
+    }

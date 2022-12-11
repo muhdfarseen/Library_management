@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Poppins,Abril Fatface;
+    position: relative;
+    background-size: cover;   
+    background-image: url("bgm.png");   
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #E3ECB5;
+}
+  
+nav ul{
+
+    float: right;
+    margin-right:30px;
+    margin-top: 15px;
+    display: flex;  
+}
+
+.logo{
+    position: absolute;
+    height: 19px;
+    left: 124px;
+    top: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #05566A;
+}
+
+.home{
+    font-weight: 700;
+}
+  
+nav a {
+    color: #05566A;
+    font-size: 16px;
+    padding: 7px 30px;
+    
+}
+
+a.active,a:hover{
+
+    color: WHITE;
+
+}
+
+.textpara{
+    position: absolute;
+    width: 734px;
+    height: 234px;
+    left: 165px;
+    top: 136px;
+    font-weight: bold;
+    
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58.0761px;
+    line-height: 78px;
+    
+    color: #FFFFFF;
+}
+
+.textparaline{
+    position: absolute;
+    width: 201px;
+    height: 36px;
+    left: 165px;
+    top: 389.99px;
+    color: #FFFFFF;
+}
+
+.button1{
+
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #04637A;
+    border-radius: 10px;
+    
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    gap: 10px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+    border-style: none;
+    position: absolute;
+    width: 328px;
+    height: 56px;
+    left: 165px;
+    top: 470px;
+
+}
+
+.button1:hover {
+    color: #05566A;
+    background: white;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+  }
+
+.button2{
+
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    gap: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+    position: absolute;
+    width: 328px;
+    height: 56px;
+    left: 165px;
+    top: 545px;
+    color: #FFFFFF;
+    background: rgba(4, 98, 122, 0.392);
+    border: 0px solid #FFFFFF;
+    border-radius: 10px;
+        
+}
+
+.button2:hover {
+    background-color: #05566a32;
+
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+
+
+

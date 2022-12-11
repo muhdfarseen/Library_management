@@ -1,0 +1,69 @@
+
+
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow Library</title>
+    <link rel="stylesheet" href="form.css" />
+</head>
+
+<body>
+    <nav>
+        <label class="logo">Library</label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="seebook.php">Books</a></li>
+            <li class="login"><a href="login.html">Admin Login</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div class="textpara">
+        <p>Add new book :</p>
+    </div>
+
+<div class="container">
+    <form action="addbook.php" method="post">
+
+        <input type="text" class="formco1" placeholder="Book number"      id="bnum"  name="bnum">  <br><br>
+        <input type="text" class="formco2" placeholder="Book name"        id="bname" name="bname"> <br><br>
+        <input type="text" class="formco3" placeholder="Auther name"      id="aname" name="aname"> <br><br>
+        <input type="text" class="formco4" placeholder="Publication name" id="pname" name="pname"> <br><br>
+
+        <button class="addbutton" name="addbook" type="submit" >Add book</button>
+        
+    </form>
+</div>
+
+<div class="textpara2">
+    <p>Delete a book :</p>
+</div>
+
+<div class="container2">
+    <form action="delbook.php" method="post">
+
+        <input type="text" class="delbook" placeholder="Book number" id="bnum" name="bnum">
+        <button class="delbutton" name="delbook" type="submit" >Delete book</button><br><br><br>
+        
+    </form>
+</div>
+
+<div class="textpara3">
+    <p>See book collection :</p>
+</div>
+
+<div class="container3">
+    <form action="seebook.php" method="post">
+
+        <button class="seebutton" name="seebook" type="submit" >See book collection</button>
+        
+    </form>
+</div>
+
+</body>
+</html>
+

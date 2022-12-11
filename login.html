@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow Library</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+
+    <nav>
+        <label class="logo">Library</label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="seebook.php">Books</a></li>
+            <li class="login"><a href="login.html">Admin Login</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div class="textpara">
+        <p>Welcome back</p>
+    </div>
+
+    <div class="textparaline">
+        <p>Welcome back! Please enter your details</p>
+    </div>
+
+    <form name="form1" action="action_page.php" method="post">
+        <div class="container">
+            <label for="uname">Username</label><br>
+            <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+        
+            <label for="psw">Password</label><br>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        </div>
+    </form>
+
+    <button class="button button1" type="submit" onClick="Password(document.form1.psw,document.form1.uname)">Sign in</button>
+    <button class="button button2" type="submit" onClick="backhome()">Back to Home</button>
+
+</body>
+
+<script>
+
+    function backhome() {
+      window.location.href="dbms.html";
+    }
+
+    function mydisplay() {
+        window.location.href="display.html";
+    }
+
+    function Password(a,b) 
+    { 
+        var passw=123456 ;
+        user="farseen";
+
+        if(a.value.match(passw) && b.value.match(user))
+        { 
+            window.location.href="form.html";
+        }
+        else
+        { 
+            alert('incorrect password..!')
+            return false;
+        }
+    }
+
+</script>
+
+</html>

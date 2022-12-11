@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Poppins,Abril Fatface;
+    position: relative;
+    background-size: cover;   
+    background-image: url("bgm.png");  
+    
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #E3ECB5;
+}
+
+nav ul{
+
+    float: right;
+    margin-right:30px;
+    margin-top: 15px;
+    display: flex;  
+}
+
+.logo{
+    position: absolute;
+    height: 19px;
+    left: 124px;
+    top: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #05566A;
+}
+
+.login{
+    font-weight: 700;
+}
+  
+nav a {
+    color: #05566A;
+    font-size: 16px;
+    padding: 7px 30px;
+    
+}
+
+a.active,a:hover{
+    color: white;
+}
+
+.textpara{
+    position: absolute;
+    width: 470px;
+    height: 96px;
+    left: 165px;
+    top: 144px;
+    
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 71.0816px;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+
+.textparaline{
+    position: absolute;
+    width: 502px;
+    height: 37px;
+    left: 165px;
+    top: 248.02px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24.4788px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.button1{
+
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #04637A;
+    border-radius: 10px;
+    
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    gap: 10px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+    border-style: none;
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 545px;
+    top: 530px;
+
+}
+
+.button1:hover {
+    color: #05566A;
+    background: white;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+  }
+
+.button2{
+
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #04627a77;
+    border-radius: 10px;
+    
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    gap: 10px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+    border-style: none;
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 340px;
+    top: 530px;
+        
+}
+
+.button2:hover {
+    background: #04627a1e;
+    color: white;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container{
+    margin-top: 280px;
+    padding: 16px;
+    margin-left: 150px;
+    color: white;
+    font-weight: 500;
+}
+
+
+input[type=text], input[type=password] {
+    width: 500px;
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
